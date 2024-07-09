@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>ProjectApi.Application.Core</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Remove="RequestHandlers\DeleteChatBlockRequestHandler.cs"/>
+        <Compile Remove="RequestHandlers\CreateChatBlockRequestHandler.cs"/>
+        <Compile Remove="Dtos\UpdateChatBlockRequestDto.cs"/>
+        <Compile Remove="Dtos\ReadChatBlockRequestDto.cs"/>
+        <Compile Remove="Dtos\CreateChatBlockRequestDto.cs"/>
+    </ItemGroup>
+
+
+</Project>
