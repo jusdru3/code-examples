@@ -1,8 +1,6 @@
 ## General info
 
-Some code snippets taken from a live project.
+Some code snippets taken from a live projects.
 
-- ProjectApi is an entrypoint of the solution. Contains API and background jobs logic.
-- ProjectApi.Application.Core contains core logic. Reservations module contains request handlers, services, validators and other needed parts.
-- ProjectApie.Data.Tests contains Reservation entity unit tests.
-- ProjectApi.Application.Core.Tests contains integration tests.
+- Example 1 - dotnet project containing reservations logic in an airbnb style product.
+- Example 2 - facebook ads management system. Code snippets of http, repositories and services layers.
